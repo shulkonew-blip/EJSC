@@ -4,7 +4,7 @@ const WORDS = [
   "Discipline",
   "Technique",
   "Mental de gagnant",
-  "Héritage 1942",
+  "Héritage 2016",
   "Esprit d'équipe",
   "Haute performance",
   "Respect",

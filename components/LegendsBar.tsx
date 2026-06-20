@@ -15,9 +15,9 @@ interface Stat {
 const STATS: Stat[] = [
   {
     icon: <History className="h-6 w-6" />,
-    to: 1942,
-    label: "Fondé en 1942",
-    sub: "Plus de 80 ans d'histoire et de passion à Casablanca",
+    to: 2016,
+    label: "Fondé en 2016",
+    sub: "Depuis plus de 8 ans, histoire et passion à Casablanca",
   },
   {
     icon: <GraduationCap className="h-6 w-6" />,

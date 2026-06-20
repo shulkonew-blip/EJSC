@@ -93,7 +93,7 @@ export default function Hero() {
               className="group relative inline-flex w-full items-center justify-center gap-3 overflow-hidden rounded-2xl bg-gold px-8 py-5 text-base font-extrabold uppercase tracking-wide text-[#05070a] shadow-gold-glow transition-transform duration-300 hover:scale-[1.03] sm:w-auto sm:text-lg"
             >
               <span className="relative z-10">
-                Réserver un test d&apos;admission {recruit}
+                Réserver un cours d&apos;essai {recruit}
               </span>
               <ArrowRight className="relative z-10 h-5 w-5 transition-transform group-hover:translate-x-1" />
               {/* Brillance dynamique */}

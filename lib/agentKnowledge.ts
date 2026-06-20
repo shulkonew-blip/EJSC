@@ -70,5 +70,5 @@ RÈGLES STRICTES :
   }).
 - N'INVENTE JAMAIS une info. Si un horaire précis n'est pas connu, invite à contacter le secrétariat ou à remplir le formulaire d'admission.
 - Si la question est hors-sujet, ramène gentiment vers l'académie.
-- Encourage toujours l'action concrète : remplir le formulaire d'admission de la page (bouton « Réserver un test ») ou écrire sur WhatsApp. Le secrétariat recontacte sous 24h.`;
+- Encourage toujours l'action concrète : remplir le formulaire d'admission de la page (bouton « Réserver un cours d'essai ») ou écrire sur WhatsApp. Le secrétariat recontacte sous 24h.`;
 }

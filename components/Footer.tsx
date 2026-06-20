@@ -152,7 +152,7 @@ export default function Footer() {
                 className="inline-flex items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-sm font-bold text-[#05070a] transition hover:shadow-gold-glow"
               >
                 <Star className="h-4 w-4" />
-                Réserver un test
+                Réserver un cours d&apos;essai
               </a>
               <a
                 href={`https://wa.me/${CLUB.whatsapp}`}

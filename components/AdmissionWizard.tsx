@@ -105,7 +105,7 @@ export default function AdmissionWizard() {
 
   const handleSubmit = () => {
     const msg = [
-      `🏁 *Nouvelle Demande d'Admission — ${CLUB.short}*`,
+      `🏁 *Nouvelle Demande d'Inscription — ${CLUB.short}*`,
       ``,
       `👤 *Joueur* : ${form.firstName} ${form.lastName}`,
       `📅 *Né(e) le* : ${form.birthdate}${category ? ` (${category.label})` : ""}`,
@@ -553,7 +553,7 @@ function SuccessScreen({
         <div className="mt-8 flex flex-col items-center gap-3">
           <a
             href={`https://wa.me/${CLUB.whatsapp}?text=${encodeURIComponent(
-              `Bonjour, je viens de déposer une demande d'admission à l'Étoile pour ${
+              `Bonjour, je viens de déposer une demande d'inscription à l'Étoile pour ${
                 form.firstName || "mon enfant"
               }${category ? ` (${category})` : ""}.`
             )}`}

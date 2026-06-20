@@ -36,7 +36,7 @@ function localFallback(q: string): string {
   if (/(âge|age|ans|quel age|catégorie|categorie|u\d)/.test(t))
     return "L'École accueille dès 5 ans (U5). L'Académie est accessible dès ~U9 sur test. Donnez-moi l'âge de votre enfant et je vous oriente !";
   if (/(inscri|inscription|test|admission|rejoindre|comment)/.test(t))
-    return `C'est simple : remplissez le formulaire d'admission de la page (bouton « Réserver un test »), ou écrivez-nous sur WhatsApp au ${CLUB.phonesMobile[0].display}. Le secrétariat vous recontacte sous 24h ✅`;
+    return `C'est simple : remplissez le formulaire d'admission de la page (bouton « Réserver un cours d'essai »), ou écrivez-nous sur WhatsApp au ${CLUB.phonesMobile[0].display}. Le secrétariat vous recontacte sous 24h ✅`;
   if (/(contact|téléphone|telephone|whatsapp|numéro|numero|email|mail|appel)/.test(t))
     return `Téléphone fixe : ${CLUB.phonesFixe.map(p => p.display).join(" / ")} · Mobile & WhatsApp : ${CLUB.phonesMobile.map(p => p.display).join(" / ")} · Email : ${CLUB.email} 💚`;
   return `Belle question ! Pour une réponse précise, contactez notre secrétariat au ${CLUB.phonesMobile[0].display} (WhatsApp) ou remplissez le formulaire d'admission. Je peux aussi vous parler de l'École, de l'Académie et des inscriptions ⚽️`;

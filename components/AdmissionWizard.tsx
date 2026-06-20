@@ -114,7 +114,7 @@ export default function AdmissionWizard() {
       ...(form.email ? [`📧 *Email* : ${form.email}`] : []),
       `🎯 *Objectif* : ${form.goal === "competition" ? "Compétition & Académie" : "École & Progression"}`,
       ``,
-      `💚 Envoyé depuis le site ${CLUB.short} — ${season.recruitmentLabel}`,
+      `💚 Envoyé depuis le site ${CLUB.short}`,
     ].join("\n");
 
     window.open(
@@ -424,8 +424,7 @@ export default function AdmissionWizard() {
       {!submitted && (
         <p className="mt-6 flex items-center justify-center gap-2 text-center text-xs text-zinc-500">
           <MessageCircle className="h-4 w-4 text-emerald-glow" />
-          Réponse garantie sous 24h · Places limitées pour la saison{" "}
-          {season.recruitmentLabel}
+          Réponse garantie sous 24h · Places limitées
         </p>
       )}
     </section>

@@ -48,7 +48,7 @@ export default function Hero() {
             className="animate-fade-up mt-7 font-display text-[clamp(2.15rem,8.5vw,6.2rem)] uppercase leading-[0.92] tracking-tight text-white"
             style={{ animationDelay: "120ms" }}
           >
-            Depuis 1942,
+            Depuis 2016,
             <br />
             nous traçons la voie
             <br />

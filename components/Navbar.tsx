@@ -123,7 +123,7 @@ export default function Navbar() {
               EJSC
             </span>
             <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-gold/80">
-              Depuis 1942
+              Depuis 2016
             </span>
           </span>
           <button

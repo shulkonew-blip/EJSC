@@ -17,9 +17,9 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "EJSC · L'Étoile de la Jeunesse Sportive de Casablanca | Académie de Football depuis 1942",
+  title: "EJSC · L'Étoile de la Jeunesse Sportive de Casablanca | Académie de Football depuis 2016",
   description:
-    "Depuis 1942, l'institution historique de Casablanca forme l'élite du football. École de Football (tous âges) & Académie de Performance (sur détection). Offrez à votre enfant un destin de champion, réservez son cours d'essai.",
+    "Depuis 2016, l'institution historique de Casablanca forme l'élite du football. École de Football (tous âges) & Académie de Performance (sur détection). Offrez à votre enfant un destin de champion, réservez son cours d'essai.",
   keywords: [
     "football Casablanca",
     "académie football",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "détection football Maroc",
   ],
   openGraph: {
-    title: "EJSC · Depuis 1942, nous traçons la voie de l'élite",
+    title: "EJSC · Depuis 2016, nous traçons la voie de l'élite",
     description:
       "Offrez à votre enfant un destin de champion. Académie de football historique de Casablanca.",
     type: "website",

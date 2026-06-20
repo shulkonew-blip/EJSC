@@ -38,7 +38,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="mx-auto mt-5 max-w-sm text-sm leading-relaxed text-zinc-400 sm:mx-0">
-              Depuis 1942, l&apos;institution historique de Casablanca qui forge
+              Depuis 2016, l&apos;institution historique de Casablanca qui forge
               les champions de demain. L&apos;héritage, la rigueur et l&apos;ADN de
               la gagne.
             </p>
@@ -170,7 +170,7 @@ export default function Footer() {
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-7 text-xs text-zinc-500 sm:flex-row">
           <p>
             © {new Date().getFullYear()} Étoile de la Jeunesse Sportive de
-            Casablanca. Fondé en 1942. Tous droits réservés.
+            Fondé en 2016. Tous droits réservés.
           </p>
           <p className="flex items-center gap-1.5">
             Forgé avec

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p public/images app components)",
+      "Bash(cp '__TRACKED_VAR__/World cup petits.jpg' public/images/hero-worldcup.jpg)",
+      "Bash(cp '__TRACKED_VAR__/Coach équipe petits.jpg' public/images/ecole-coach.jpg)",
+      "Bash(cp '__TRACKED_VAR__/Calin petit et coach.jpg' public/images/ecole-calin.jpg)",
+      "Bash(cp '__TRACKED_VAR__/Photo de groupe des grands.jpg' public/images/academie-groupe.jpg)",
+      "Bash(npm run *)"
+    ]
+  }
+}

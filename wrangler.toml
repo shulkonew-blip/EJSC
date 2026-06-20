@@ -1,0 +1,8 @@
+name = "ejsc-etoile"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "out"
+
+# La variable secrète GROQ_API_KEY est fournie :
+#  - en local par le fichier .dev.vars (ignoré par git)
+#  - en production par un secret Cloudflare Pages :
+#      npx wrangler pages secret put GROQ_API_KEY

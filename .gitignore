@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.vercel
+.wrangler
+.DS_Store
+*.log
+
+# Secrets — ne jamais committer
+.env*
+.dev.vars
